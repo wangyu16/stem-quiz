@@ -1,0 +1,4 @@
+{
+  "question": "Calculate the pressure of 2 moles of an ideal gas in a 10 L container at 300 K. (R = 0.0821 L·atm/mol·K)",
+  "answer": "4.926" // atm (rounded to 3 decimals)
+}
