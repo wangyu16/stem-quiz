@@ -1,4 +1,4 @@
-async function startStemQuiz(containerId, initialQuestionUrl) {
+export async function startStemQuiz(containerId, initialQuestionUrl) {
   const container = document.getElementById(containerId);
   if (!container) return console.error("Container not found!");
 
@@ -59,5 +59,3 @@ async function startStemQuiz(containerId, initialQuestionUrl) {
   });
 }
 
-// Expose the function globally
-window.startStemQuiz = startStemQuiz;
